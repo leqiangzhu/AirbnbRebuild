@@ -17,7 +17,7 @@ function App() {
       <style jsx>{`
       body{
       background-image: url('https://a0.muscache.com/4ea/air/r:w3100-h2074-sfit,e:fjpg-c80/pictures/0ffd8594-f123-43f0-85bb-7ef88c6f0624.jpg');
-      height: 722px;
+      height: 1300px;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;

@@ -25,7 +25,9 @@ function Navigation() {
        
 
         `}</style>
-
+                <div>
+                    <img width="150px" src='https://press.airbnb.com/wp-content/uploads/sites/4/2017/01/airbnb_horizontal_lockup_white_web.png?fit=2945%2C1321'></img>
+                </div>
 
                 <ul>
                     {/* <li> */}
@@ -36,8 +38,9 @@ function Navigation() {
                     )}
                     {/* </li> */}
                 </ul>
+                <Book></Book>
             </div>
-           
+
         </div>
     );
 }
