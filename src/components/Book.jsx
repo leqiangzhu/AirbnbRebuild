@@ -66,8 +66,22 @@ export function Book() {
            left: 200px;
            text-align: right;
        }
+       p {
+       color:white;
+        margin-left: 350px;
+
+         }
+        //  .bookfooter {
+        //      text-align: center;
+        //  }
+         img {
+             width: 15px;
+             margin-right: 5px;
+         }
         `}</style>
+        <div>
             <div id="bookForm">
+            
                 <div id="headline">
                     <h1 >Book unique homes and experiences.</h1>
                 </div>
@@ -103,7 +117,13 @@ export function Book() {
                         <button type="submit" value="Submit">Submit</button>
                     </div>
                 </form>
+
             </div>
+            <div class="bookfooter">
+                <p><img src='https://image.flaticon.com/icons/svg/25/25694.svg'></img>Earn money while you travel</p>
+            </div>
+            </div>
+
         </div>
     )
 }
