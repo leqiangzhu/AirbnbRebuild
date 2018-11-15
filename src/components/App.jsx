@@ -17,7 +17,6 @@ function App(){
       <style jsx>{`
         font-family: Helvetica;
       `}</style>
-      AirBnB
       <Navigation />
       {/* <Switch>
         <Route exact path='/' component={} />
