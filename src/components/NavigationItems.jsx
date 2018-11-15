@@ -10,6 +10,7 @@ function NavigationItems(props) {
                         display: inline-block;
                         margin-right: 10px;
                         padding: 8px;
+                        color:white;
                     }
             `}
             </style>
