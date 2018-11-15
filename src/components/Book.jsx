@@ -13,6 +13,7 @@ export function Book() {
             padding-bottom: 24px !important;
             width: 441px !important;
             box-shadow: 0 16px 40px rgba(0,0,0,0.12) !important;
+            margin-left: 200px;
         }
        
         #headline   {
@@ -27,6 +28,7 @@ export function Book() {
         cursor: pointer !important;
         display: block !important;
         padding: 0px !important;
+        margin: auto;
        }
 
        input {
@@ -35,8 +37,35 @@ export function Book() {
         vertical-align: middle !important;
         border-radius: 4px;
         height: 46px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
        }
 
+       #check-in-out{
+        width: 100%;
+         display: flex;
+       }
+       select{
+           height:50px;
+           width:100%;
+           background-color: transparent;
+       }
+       button{
+           height: 46px;
+           width:146px;
+           background-color:#FF5A5F;
+           color:white;
+           border-radius: 4px;
+           text-align: center;
+           margin-right: 200px;
+       }
+    
+       #button-container {
+           position: relative;
+           left: 200px;
+           text-align: right;
+       }
         `}</style>
             <div id="bookForm">
                 <div id="headline">
@@ -47,26 +76,32 @@ export function Book() {
                         WHERE
                         <input type="text" name="where" />
                     </label>
-                    <div>
+                    <div id="check-in-out">
                         <label>
                             CHECK IN
-                        <input type="text" name="checkIn" />
+                        <input type="date" name="checkIn" />
                         </label>
                         <label>
                             CHECK OUT
-                        <input type="text" name="checkOut" />
+                        <input type="date" name="checkOut" />
                         </label>
                     </div>
                     <label>
                         GUESTS
-                        <select>
+                        <br />
+                        <br />
+                        <select placeholder="232">
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
                             <option value="4">4</option>
                         </select>
                     </label>
-                    <input type="submit" value="Submit" />
+                    <br />
+                    <br />
+                    <div id="button-container">
+                        <button type="submit" value="Submit">Submit</button>
+                    </div>
                 </form>
             </div>
         </div>
